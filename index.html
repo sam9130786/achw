@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>فلک کے نام — محبت، دعائیں اور مسکراہٹیں</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Amiri:wght@400;700&display=swap');
+:root{--rose:#b92f58;--deep:#481b35;--cream:#fff7ef;--gold:#d8a65b;--pink:#ffe1e9}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(140deg,#fff8f0,#ffe8ef 48%,#fff3dc);color:var(--deep);font-family:'Noto Nastaliq Urdu','Amiri',serif;overflow-x:hidden}
+body > header,body > section,body > .final,body > footer{position:relative;z-index:1}\nbody:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.13;background-image:linear-gradient(135deg,#fff8f0d9,#ffe8efd9),url('assets/falak-mehendi.png');background-size:cover,300px auto;background-repeat:no-repeat,repeat;background-position:center,center;background-attachment:fixed}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:28px 16px;position:relative;text-align:center}
+.card{width:min(940px,100%);background:#ffffffd0;border:1px solid #f3c7d1;border-radius:32px;padding:clamp(22px,5vw,54px);box-shadow:0 22px 70px #8d31501c;position:relative;overflow:hidden}
+.kicker{color:var(--rose);font-size:15px;letter-spacing:1px}
+h1{font-size:clamp(38px,8vw,76px);line-height:1.55;margin:8px 0;color:#9c214c}
+h2{font-size:clamp(25px,5vw,38px);line-height:1.8;color:#9c214c;margin:0 0 16px}
+p{font-size:clamp(17px,3vw,22px);line-height:2.1;margin:12px 0}
+.heart{font-size:40px;animation:pulse 1.5s infinite;display:inline-block}
+@keyframes pulse{50%{transform:scale(1.2)}}
+.btn{border:0;border-radius:999px;padding:13px 27px;font-family:inherit;font-size:19px;cursor:pointer;transition:transform .2s,box-shadow .2s;box-shadow:0 7px 18px #9d2b4a20}
+.btn:hover{transform:translateY(-3px)}
+.primary{background:linear-gradient(135deg,#c73560,#8f214b);color:white}
+.soft{background:#ffe4eb;color:#92264c;border:1px solid #f2b8c8}
+section{padding:55px 16px;position:relative}
+.wrap{max-width:900px;margin:auto}
+.mehendi-layout{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:25px;align-items:center}
+.photo-frame{background:white;padding:12px;border-radius:24px;box-shadow:0 15px 35px #7b23401c;transform:rotate(-1deg)}
+.photo-frame img{width:100%;display:block;border-radius:16px}
+.caption{font-size:14px;text-align:center;color:#a24b65;padding:10px 0 2px}
+.quote{background:#fffaf5e8;border:1px solid #f2c6d1;border-radius:24px;padding:26px;text-align:center;margin:18px 0;box-shadow:0 8px 25px #9b31500b}
+.quote strong{color:#a3224d}
+.divider{text-align:center;color:#d18a9d;font-size:24px;margin:24px}
+.surprises{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:15px;margin-top:22px}
+.surprise{background:#ffffffed;border:1px solid #f4d0d8;border-radius:22px;padding:20px 15px;text-align:center}
+.surprise .emoji{font-size:42px;display:block;margin-bottom:8px}
+.hidden-message{display:none;margin-top:16px;padding:18px;background:#fff1f5;border-radius:18px;font-size:19px;line-height:2}
+.question{background:linear-gradient(135deg,#fff,#fff0f4);border-radius:28px;border:1px solid #f0bdca;padding:28px;text-align:center}
+.buttons{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin:20px 0;min-height:62px;position:relative}
+#noBtn{position:relative}
+.final{background:#4a1c36;color:#fff5f4;text-align:center;padding:55px 20px 70px}
+.final h2{color:#ffd3df}
+footer{text-align:center;font-size:14px;padding:20px;color:#8d4b61}
+#rainLayer{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:50}
+.fall{position:absolute;top:-60px;animation:fall linear forwards;user-select:none}
+@keyframes fall{to{transform:translateY(115vh) rotate(600deg);opacity:.2}}
+.modal{position:fixed;inset:0;background:#321222b8;z-index:60;display:none;align-items:center;justify-content:center;padding:20px}
+.modal-box{max-width:480px;width:100%;background:#fff8f1;border-radius:28px;padding:30px;text-align:center;box-shadow:0 20px 70px #16050d60}
+.choco{font-size:80px;cursor:pointer;display:inline-block;transition:transform .3s}
+.choco:hover{transform:rotate(-12deg) scale(1.1)}
+.small{font-size:14px;color:#a45b70}
+@media(max-width:500px){.card{border-radius:24px}.buttons{gap:10px}.btn{font-size:17px;padding:11px 22px}}
+</style>
+</head>
+<body>
+<div id="rainLayer"></div>
+<header class="hero">
+  <div class="card">
+    <div class="kicker">ایک چھوٹی سی ویب سائٹ، ڈھیروں ساری محبت کے ساتھ</div>
+    <div class="heart">💗</div>
+    <h1>میری پیاری فلک کے نام</h1>
+    <p>فلک، تمہاری مسکراہٹ کسی خوبصورت صبح جیسی ہے، اور تمہاری خوشی میرے لیے ایک چھوٹی سی دنیا ہے۔</p>
+    <p>یہ صفحہ تمہارے چہرے پر ایک پیاری سی مسکراہٹ لانے کے لیے بنایا ہے۔ آہستہ آہستہ نیچے آؤ، تمہارے لیے کئی سرپرائز ہیں۔ 🌷</p>
+    <a href="#mehendi"><button class="btn primary">میرا سرپرائز دیکھو ✨</button></a>
+  </div>
+</header>
+
+
+<section id="music">
+<div class="wrap">
+  <div class="quote">
+    <div style="font-size:42px">🎶💗</div>
+    <h2>فلک کے نام محبت بھرا میوزک</h2>
+    <p>تمہاری خوبصورت مہندی، پیاری سی مسکراہٹ اور یہ دو گانے — سب کچھ تمہارے لیے۔ پہلے پہلا گانا چلے گا، پھر اس کے ختم ہوتے ہی دوسرا گانا خود چلنے کی کوشش کرے گا۔</p>
+    <audio id="songPlayer" preload="auto" playsinline style="width:100%;margin:10px 0">
+      <source src="assets/song-1.m4a" type="audio/mp4">
+    </audio>
+    <p id="songStatus" class="small">پہلا گانا تیار ہے۔ اگر براؤزر خود میوزک شروع نہ کرے تو نیچے بٹن دبائیں۔</p>
+    <button class="btn primary" id="musicButton" onclick="startMusic()">🎵 میوزک چلائیں</button>
+  </div>
+</div>
+</section>
+
+<section id="mehendi">
+<div class="wrap">
+  <h2 style="text-align:center">فلک، تمہاری مہندی ماشاءاللہ کتنی پیاری لگ رہی ہے! 🌿</h2>
+  <div class="mehendi-layout">
+    <div class="photo-frame"><img src="assets/falak-mehendi.png" alt="فلک کی خوبصورت مہندی والے ہاتھ"><div class="caption">تمہارے ہاتھوں کی مہندی کے نام 💚</div></div>
+    <div>
+      <div class="quote"><p>فلک، تمہاری مہندی کا رنگ صرف ہاتھوں پر نہیں سجا،<br><strong>یوں لگتا ہے جیسے چاندنی نے تمہاری ہتھیلیوں پر اپنا گھر بنا لیا ہو۔</strong><br>ہر نقش میں نفاست، ہر رنگ میں خوبصورتی،<br>اور ہر انگلی پر جیسے محبت کی کوئی نئی کہانی لکھی ہو۔ 🌿💚</p></div>
+      <div class="quote"><p>اگر کوئی اپنا پاس ہو یا نہ ہو،<br><strong>مہندی کا یہ پیارا رنگ گواہی دے رہا ہے،</strong><br>کہ فلک کے نصیب میں محبت کرنے والا،<br>عزت دینے والا، خیال رکھنے والا<br>اور اسے دنیا کی ہر خوشی دینے کی دعا کرنے والا ہمسفر ہو۔ 🤍</p></div>
+      <div class="quote"><p>ماشاءاللہ فلک! تمہارے ہاتھوں کی مہندی ایسی دلکش ہے<br>جیسے سرخ گلاب کی پنکھڑیوں پر شام کی روشنی ٹھہر گئی ہو۔<br>ہتھیلی کا یہ گول نقش جیسے ننھا سا سورج،<br>اور اس کے گرد بنے نقطے جیسے خوشیوں کے ستارے۔ ✨</p></div>
+      <div class="quote"><p>تمہاری مہندی کی سرخی میں ایک الگ ہی حسن ہے،<br>اس کی سادگی میں بھی شان ہے، اس کے نقش میں بھی پیار ہے۔<br>نہ کسی بناوٹ کی ضرورت، نہ کسی لفظ کی محتاج،<br><strong>تمہارے ہاتھ خود کہہ رہے ہیں کہ خوبصورتی کسے کہتے ہیں۔</strong> 🌹</p></div>
+      <div class="quote"><p>مہندی کا ہر رنگ تمہارے لیے خوشیوں کی دعا ہے،<br>اور ہر نقش میں ایک خوبصورت کل کی امید۔ 🌙</p></div>
+    </div>
+  </div>
+  <div class="quote"><p>یہ مہندی نہیں فلک، تمہاری ہتھیلیوں پر سجی ہوئی دعا ہے،<br>جس میں ہر رنگ خوشیوں کا پیغام، ہر نقش محبت کی صدا ہے۔<br>اللہ کرے اس رنگ کی طرح تمہاری زندگی بھی نکھرتی رہے،<br>تمہارے ہر خواب کی کلی کھلے، ہر صبح ہنستی رہے۔ 🌷</p></div>
+  <div class="quote"><p>تمہارے ہاتھوں کی مہندی کو دیکھ کر دل یہی کہتا ہے،<br>کاش ہر خوشی تمہاری ہتھیلی پر پھول بن کر کھل جائے۔<br>تم جہاں قدم رکھو وہاں سکون اترے،<br>تم جس طرف دیکھو وہاں امید کا چراغ جل جائے۔ 💞</p></div>
+  <div class="quote"><p>مہندی کا رنگ گہرا ہو تو سب خوش ہوتے ہیں،<br>مگر فلک، تمہاری خوشی اس رنگ سے بھی زیادہ گہری ہو۔<br>تمہاری قسمت میں محبت بے حساب ہو،<br>تمہارے دل میں کبھی تنہائی نہ ہو، ہر دن لاجواب ہو۔ 🌙</p></div>
+  <p style="text-align:center">اللہ تمہاری زندگی کو محبت، سکون، عزت اور بے شمار خوشیوں سے بھر دے۔ آمین۔ 🤲</p>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+  <h2 style="text-align:center">مہندی کے رنگ میں چھپی فلک کی خوبصورتی 🌿</h2>
+  <div class="quote"><p>فلک، تمہاری مہندی کو جتنا دیکھو اتنا ہی دل چاہتا ہے کہ اس کی تعریف میں نئے لفظ ڈھونڈے جائیں۔ اس کی سرخی بہت پیاری، اس کے نقش بہت نفیس، اور دونوں ہاتھوں کی سجاوٹ ایسی متوازن ہے جیسے کسی نے محبت سے ہر لکیر کو سنوارا ہو۔ 💚</p></div>
+  <div class="quote"><p>ان ہتھیلیوں پر سجا ہوا گہرا رنگ، انگلیوں پر مہندی کی خوبصورت سرخی، اور درمیان میں بنا ہوا نازک سا نقش — سب کچھ بہت دلکش ہے۔ ماشاءاللہ، تمہارے ہاتھوں کی یہ سادگی ہی ان کی سب سے بڑی خوبصورتی ہے۔ 🌸</p></div>
+  <div class="quote"><p>تمہاری مہندی کے یہ نقش کسی خوبصورت غزل کے مصرعوں جیسے ہیں؛ ایک نقش آنکھوں کو اچھا لگتا ہے، دوسرا دل کو چھو لیتا ہے، اور پورا منظر ایک ایسی پیاری یاد بن جاتا ہے جسے بار بار دیکھنے کو دل کرے۔ 💗</p></div>
+  <div class="quote"><p>کاش ان مہندی والے ہاتھوں میں ہمیشہ خوشیوں کے پھول رہیں، دعاؤں کی روشنی رہے، اپنوں کا پیار رہے اور زندگی کے ہر موڑ پر عزت و سکون تمہارا استقبال کریں۔ تمہاری مہندی کی طرح تمہارا ہر آنے والا دن بھی خوبصورت رنگوں سے بھر جائے۔ آمین۔ 🤲</p></div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+  <h2 style="text-align:center">فلک کے لیے چند پیاری سی باتیں 💌</h2>
+  <div class="quote"><p>تم پھولوں جیسی نازک نہیں،<br>بلکہ پھولوں کو خوبصورت بنانے والی خوشبو ہو۔ 🌹</p></div>
+  <div class="quote"><p>تمہاری ہنسی سے دن روشن ہو،<br>تمہاری خوشی سے دل مطمئن ہو،<br>تم جہاں بھی رہو فلک،<br>تمہارے حصے میں ہمیشہ اچھا ہی اچھا ہو۔ ✨</p></div>
+  <div class="quote"><p>زندگی کے ہر موڑ پر تمہیں ایسے لوگ ملیں<br>جو تمہاری خاموشی بھی سمجھیں،<br>تمہاری عزت کریں، تمہارا خیال رکھیں<br>اور تمہاری آنکھوں میں کبھی آنسو نہ آنے دیں۔ 🤍</p></div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<h2 style="text-align:center">چھوٹے چھوٹے سرپرائز 🎁</h2>
+<p style="text-align:center">ہر سرپرائز کھول کر دیکھو، فلک!</p>
+<div class="surprises">
+  <div class="surprise"><span class="emoji">🌸</span><h3>پھولوں کی بارش</h3><button class="btn soft" onclick="flowerRain(90)">یہاں دباؤ</button></div>
+  <div class="surprise"><span class="emoji">🍫</span><h3>چاکلیٹ کا تحفہ</h3><button class="btn soft" onclick="openChoco()">چاکلیٹ کھولو</button></div>
+  <div class="surprise"><span class="emoji">🧸</span><h3>ایک پیارا سا پیغام</h3><button class="btn soft" onclick="reveal('msg1')">پیغام پڑھو</button><div class="hidden-message" id="msg1">تم ہمیشہ ہنستی مسکراتی رہو۔ تمہاری خوشی بہت قیمتی ہے، اور تم ہر اچھی چیز کی حق دار ہو۔ 🩷</div></div>
+  <div class="surprise"><span class="emoji">🌈</span><h3>خوشیوں کی دعا</h3><button class="btn soft" onclick="reveal('msg2')">دعا کھولو</button><div class="hidden-message" id="msg2">اللہ تمہارے دل کو سکون، زندگی کو برکت، رشتوں کو خلوص اور ہر آنے والے دن کو خوبصورت بنائے۔ آمین۔ 🤲</div></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap question" id="question">
+  <div style="font-size:48px">🥹💗</div>
+  <h2>فلک، تمہیں یہ چھوٹا سا سرپرائز کیسا لگا؟</h2>
+  <p>سچ سچ بتانا، مسکرانا منع نہیں ہے! 😊</p>
+  <div class="buttons">
+    <button class="btn primary" onclick="sayYes()">ہاں، بہت پیارا! 💖</button>
+    <button class="btn soft" id="noBtn" onmouseenter="runAway()" onclick="runAway()">نہیں 🙈</button>
+  </div>
+  <div id="yesMessage" class="hidden-message" style="font-size:22px">ارے واہ فلک! 🥰 تم نے ہاں کہہ دی! تمہارے لیے پھولوں کی بارش، ڈھیروں محبت اور ایک بڑی سی مسکراہٹ! 🌸💗</div>
+</div>
+</section>
+
+<div class="final">
+  <h2>ایک آخری بات، صرف تمہارے لیے فلک 💞</h2>
+  <p>محبت کا دعویٰ کرنا ضروری نہیں،<br>کبھی کبھی کسی کے چہرے پر مسکراہٹ لانا بھی بہت ہوتا ہے۔</p>
+  <p style="font-size:clamp(24px,5vw,34px);color:#ffd3df">محبت نہیں کر سکتا،<br>پر دل خوش ضرور کر سکتا ہوں۔ 🌹</p>
+  <p>ہمیشہ خوش رہو، فلک۔ تمہاری دنیا پھولوں، دعاؤں اور سکون سے بھری رہے۔</p>
+  <button class="btn soft" onclick="flowerRain(140)">فلک کے لیے پھر سے پھول برسا دو 🌸</button>
+</div>
+<footer>صرف فلک کے چہرے پر مسکراہٹ لانے کے لیے بنایا گیا 💗</footer>
+
+<div class="modal" id="chocoModal" onclick="if(event.target===this)closeChoco()">
+  <div class="modal-box">
+    <div style="font-size:18px;color:#9c214c">فلک، تمہارے لیے ایک میٹھی سی چیز! 🍫</div>
+    <div class="choco" id="choco" onclick="revealChocolate()">🎁</div>
+    <p id="chocoText">تحفے پر دباؤ، اندر کیا ہے؟</p>
+    <button class="btn primary" onclick="closeChoco()">شکریہ 💗</button>
+  </div>
+</div>
+<script>
+function reveal(id){const el=document.getElementById(id);el.style.display=el.style.display==='block'?'none':'block'}
+function flowerRain(count=70){
+ const layer=document.getElementById('rainLayer'); const flowers=['🌸','🌹','🌷','💗','✨','🌼'];
+ for(let i=0;i<count;i++){const e=document.createElement('span');e.className='fall';e.textContent=flowers[Math.floor(Math.random()*flowers.length)];e.style.left=Math.random()*100+'%';e.style.fontSize=(18+Math.random()*25)+'px';e.style.animationDuration=(3+Math.random()*4)+'s';e.style.animationDelay=(Math.random()*1.8)+'s';layer.appendChild(e);setTimeout(()=>e.remove(),8500)}
+}
+function sayYes(){document.getElementById('yesMessage').style.display='block';flowerRain(160);document.getElementById('question').scrollIntoView({behavior:'smooth',block:'center'})}
+function runAway(){const b=document.getElementById('noBtn');const area=document.querySelector('.buttons');const maxX=Math.max(0,area.clientWidth-b.offsetWidth-10);const maxY=70;b.style.position='relative';b.style.left=(Math.random()*maxX-maxX/2)+'px';b.style.top=(Math.random()*maxY-maxY/2)+'px';}
+function openChoco(){document.getElementById('chocoModal').style.display='flex'}
+function closeChoco(){document.getElementById('chocoModal').style.display='none'}
+function revealChocolate(){document.getElementById('choco').textContent='🍫';document.getElementById('chocoText').innerHTML='تمہارے لیے ایک میٹھی سی چاکلیٹ اور اس سے بھی میٹھی دعا!<br>اللہ تمہاری زندگی خوشیوں سے بھر دے۔ 💝';flowerRain(25)}
+
+const playlist = [
+  {src:'assets/song-1.m4a', label:'پہلا گانا چل رہا ہے 🎶'},
+  {src:'assets/song-2.m4a', label:'اب دوسرا گانا، صرف فلک کے لیے 💗'}
+];
+let currentSong = 0;
+const player = document.getElementById('songPlayer');
+function loadSong(index, autoplay){
+  currentSong = index;
+  player.src = playlist[index].src;
+  player.load();
+  document.getElementById('songStatus').textContent = playlist[index].label;
+  if(autoplay){
+    const attempt = player.play();
+    if(attempt && attempt.catch) attempt.catch(()=>{
+      document.getElementById('songStatus').textContent='آپ کے براؤزر نے خودکار میوزک روک دیا ہے۔ ایک بار میوزک بٹن دبائیں، پھر گانے ترتیب سے چلیں گے۔';
+      document.getElementById('musicButton').style.display='inline-block';
+    });
+  }
+}
+function startMusic(){
+  // One tap starts the playlist; the next track starts automatically on "ended".
+  if(player.ended || currentSong >= playlist.length) loadSong(0, false);
+  const attempt = player.play();
+  if(attempt && attempt.then) attempt.then(()=>{
+    document.getElementById('musicButton').textContent='🎶 میوزک چل رہا ہے';
+    document.getElementById('songStatus').textContent=playlist[currentSong].label + ' — اگلا گانا خود چلے گا۔';
+  }).catch(()=>{
+    document.getElementById('songStatus').textContent='براؤزر نے آڈیو روک دی ہے۔ براہِ کرم میوزک بٹن دوبارہ دبائیں۔';
+  });
+}
+player.addEventListener('ended',()=>{
+  if(currentSong < playlist.length - 1) {
+    loadSong(currentSong + 1, true);
+    document.getElementById('musicButton').textContent='🎶 میوزک چل رہا ہے';
+  } else {
+    document.getElementById('songStatus').textContent='دونوں گانے فلک کے نام مکمل ہوئے۔ دوبارہ سننے کے لیے بٹن دبائیں۔ 💗';
+    document.getElementById('musicButton').textContent='🎵 دوبارہ سنیں';
+    loadSong(0, false);
+  }
+});
+window.addEventListener('load',()=>{loadSong(0, true)});
+
+</script>
+</body>
+</html>
